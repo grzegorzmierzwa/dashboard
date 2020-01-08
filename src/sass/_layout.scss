@@ -1,0 +1,28 @@
+
+.container {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+
+.menu-sidebar {
+    position: fixed;
+    flex: 0 0 auto;
+
+
+    background-color: $menu-background;
+}
+
+.navigation {
+    position: fixed;
+    flex: 0 0 auto;
+
+    background-color: $page-content-background;
+}
+
+.main-page {
+    flex: 0 0 auto;
+
+    background-color: $page-background;
+}
