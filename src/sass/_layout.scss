@@ -1,3 +1,7 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
 
 .container {
   display: flex;
@@ -7,7 +11,7 @@
 
 .menu-sidebar {
   width: 200px;
-  background-color: $menu-background;  
+  background-color: $menu-background;
 }
 
 .container-main {
@@ -17,27 +21,32 @@
 }
 
 .navigation {
-  
   background-color: $page-content-background;
-}
-
-.wrapper {
-  flex: 1;
-  overflow-y: scroll;
-  display: flex;
-  
 }
 
 .main-page {
   display: flex;
   flex-direction: column;
   background-color: $page-background;
-  
+  overflow-y: scroll;
 }
 
 .page {
-    margin: 15px 15px 0;
-    padding:  10px 20px;
-    background-color: $page-content-background;
+  margin: 15px 15px 0;
+  padding: 10px 20px;
+  background-color: $page-content-background;
+  &:last-child {
+    margin-bottom: 15px;
   }
+}
+
+
+@media (max-width: 566px) {
+  .navigation {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+  }
+}
  
