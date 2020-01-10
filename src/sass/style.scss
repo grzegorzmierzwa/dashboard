@@ -4,10 +4,14 @@
 @import 'normalize';
 @import 'layout';
 
+@import 'glyphter';
+
 /* Components */
-@import 'components/navigation';
 
 @import 'components/icons';
+@import 'components/navigation';
+
+
 
 /* Sections */
 // @import 'section/registration_form';

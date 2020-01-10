@@ -1,0 +1,43 @@
+
+.navigation ul {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navigation li {
+  display: inline-block;
+  border-left: solid 1px $lines-color;
+  font-family: $paragraph-font;
+  padding: 10px;
+  font-size: 10px;
+  margin-left: auto;
+  
+  &:last-child {
+    border-right: solid 1px $lines-color;
+  }
+}
+
+.navigation a {
+  text-decoration: none;
+  color: $text-color;
+
+  &:hover {
+    color: $hover-color-1;
+    
+  }
+
+  &:hover i {
+    color: $hover-color-1;
+  }
+}
+
+.login {
+  display: inline-block;
+  color: blue;
+  margin: 0px;
+  &:hover {
+    color: $hover-color-1;
+  }
+}

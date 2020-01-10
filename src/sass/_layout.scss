@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -5,12 +9,12 @@ body {
 
 .container {
   display: flex;
-  width: 100%;
   height: 100%;
+  
 }
 
 .menu-sidebar {
-  width: 200px;
+  width: 150px;
   background-color: $menu-background;
 }
 
@@ -22,6 +26,12 @@ body {
 
 .navigation {
   background-color: $page-content-background;
+  height: 35px;
+  width: 100%;
+  border-bottom: solid 1px $lines-color;
+  align-items: center;
+  justify-content: flex-end;
+  
 }
 
 .main-page {
@@ -35,11 +45,11 @@ body {
   margin: 15px 15px 0;
   padding: 10px 20px;
   background-color: $page-content-background;
+
   &:last-child {
     margin-bottom: 15px;
-  }
+  }  
 }
-
 
 @media (max-width: 566px) {
   .navigation {
@@ -47,6 +57,8 @@ body {
     bottom: 0;
     width: 100%;
     left: 0;
+    border-bottom: none;
+    border-top: solid 1px $lines-color;
   }
 }
  
