@@ -10,7 +10,6 @@ body {
 .container {
   display: flex;
   height: 100%;
-  
 }
 
 .menu-sidebar {
@@ -31,7 +30,6 @@ body {
   border-bottom: solid 1px $lines-color;
   align-items: center;
   justify-content: flex-end;
-  
 }
 
 .main-page {
@@ -61,4 +59,6 @@ body {
     border-top: solid 1px $lines-color;
   }
 }
+
+
  

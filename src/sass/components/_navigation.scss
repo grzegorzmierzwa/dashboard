@@ -12,7 +12,7 @@
   font-family: $paragraph-font;
   padding: 10px;
   font-size: 10px;
-  margin-left: auto;
+  margin-block-end: auto;
   
   &:last-child {
     border-right: solid 1px $lines-color;
@@ -25,7 +25,6 @@
 
   &:hover {
     color: $hover-color-1;
-    
   }
 
   &:hover i {
@@ -37,7 +36,23 @@
   display: inline-block;
   color: blue;
   margin: 0px;
+
   &:hover {
     color: $hover-color-1;
   }
 }
+
+.link {
+  position: relative;
+}
+
+.notification {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: $notification;
+  top: -5px;
+  left: 13px;
+}
+

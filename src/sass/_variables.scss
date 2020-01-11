@@ -7,18 +7,24 @@ $page-content-background: #ffffff;
 $lines-color: #bdbdbd;
 $text-color: #8c8c8c;
 $hover-color-1: #f58220;
+$notification: #ff7c09;
 
-/* Font sizes */
-$paragraph-font-size: 16px;
 
 /* Fonts */
 $brand-font: 'Open Sans', sans-serif;
 $paragraph-font: 'Roboto', sans-serif;
 $logo-font: 'Just Another Hand', cursive;
 
-/* Text */
 
+/* Text */
 p {
   font-family: $paragraph-font;
   font-size: 10px;
 }
+
+
+/* Fonts sizes */
+$fs-10: 10px;
+$fs-12: 12px;
+$fs-14: 14px;
+$fs-16: 16px;
