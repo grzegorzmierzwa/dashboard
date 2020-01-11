@@ -1,0 +1,36 @@
+.hamburger {
+  width: 15px;
+  height: 15px;
+  border: 0;
+  border-top: 1px solid $text-color;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+}
+
+.hamburger::after, .hamburger::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid $text-color;
+  transform: translateY(6px);
+}
+
+.hamburger::after {
+  transform: translateY(13px);
+}
+
+.hamburger:focus {
+  border-top: 1px solid white;
+}
+
+.hamburger:focus::after {
+    border-top: 1px solid white;
+  }
+
+.hamburger:focus::before {
+    border-top: 1px solid white;
+}

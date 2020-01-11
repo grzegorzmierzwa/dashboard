@@ -7,13 +7,13 @@
 @import 'glyphter';
 
 /* Components */
-
 @import 'components/icons';
-@import 'components/navigation';
-
+@import 'components/logo';
+@import 'components/hamburger';
 
 /* Sections */
-// @import 'section/registration_form';
+@import 'sections/navigation';
+@import 'sections/siedbar';
 
 /* Pages / Views */
 // @import 'pages/registration';
