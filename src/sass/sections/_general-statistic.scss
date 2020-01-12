@@ -1,0 +1,33 @@
+.page-general-statistic {
+    padding: 0px;
+}
+
+/* Title to section: General-statistic and Links */
+.general-title {
+  border-bottom: solid 0.5px $lines-color;
+  height: 25px;
+  .title {
+    padding-left: 20px;
+    text-transform: uppercase; 
+  }
+}
+
+.general-date {
+  border-bottom: solid 0.5px $lines-color;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.general-content {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.general-chart {
+  height: 500px;
+}

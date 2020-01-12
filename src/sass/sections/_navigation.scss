@@ -8,14 +8,14 @@
 .navigation li {
   display: inline-block;
   white-space: nowrap;
-  border-left: solid 1px $lines-color;
+  border-left: solid 0.5px $lines-color;
   font-family: $paragraph-font;
   padding: 10px;
   font-size: 10px;
   margin-block-end: auto;
   
   &:last-child {
-    border-right: solid 1px $lines-color;
+    border-right: solid 0.5px $lines-color;
   }
 }
 

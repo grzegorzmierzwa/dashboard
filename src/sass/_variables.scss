@@ -6,6 +6,7 @@ $page-background: #d9d9d9;
 $page-content-background: #ffffff;
 $lines-color: #bdbdbd;
 $text-color: #8c8c8c;
+$text-color-2: #000000;
 $hover-color-1: #f58220;
 $hover-color-2: #ffffff;
 $notification: #ff7c09;
@@ -18,16 +19,36 @@ $paragraph-font: 'Roboto', sans-serif;
 $logo-font: 'Just Another Hand', cursive;
 
 
-/* Text */
-p {
-  font-family: $paragraph-font;
-  font-size: 10px;
-}
-
-
 /* Fonts sizes */
 $fs-10: 10px;
 $fs-12: 12px;
 $fs-14: 14px;
 $fs-16: 16px;
 $fs-22: 22px;
+
+/* Text */
+p {
+  font-family: $paragraph-font;
+  font-size: 10px;
+}
+  
+h2 {
+  font-family: $paragraph-font;
+  font-weight: 500;
+  font-size: $fs-14;
+  color: $text-color;
+}
+
+h3 {
+    font-family: $paragraph-font;
+    font-weight: 500;
+    font-size: $fs-12;
+    color: $text-color;
+}
+
+h4 {
+    font-family: $brand-font;
+    font-weight: 500;
+    font-size: $fs-12;
+    color: $text-color-2;
+}
