@@ -1,9 +1,25 @@
 .menu-title {
-  height: 34px;
-  display: flex;
-  align-items: center;
+  height: 30px;
+  padding-bottom: 5px;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
+.menu-list .list {
+  padding-left: 0;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 200px;
+  border-bottom: 0.3px solid $text-color;
+  padding-bottom: 20px;
+}
+
+.menu-list-elem {
+  display: flex;
+  align-items: center;
+}

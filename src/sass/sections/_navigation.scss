@@ -1,13 +1,13 @@
-
 .navigation ul {
-  display: flex;
   margin: 0;
+  display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
 .navigation li {
   display: inline-block;
+  white-space: nowrap;
   border-left: solid 1px $lines-color;
   font-family: $paragraph-font;
   padding: 10px;
@@ -55,4 +55,3 @@
   top: -5px;
   left: 13px;
 }
-

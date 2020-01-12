@@ -7,6 +7,7 @@
   position: relative;
   cursor: pointer;
   outline: none;
+  transition: 0.3s border-top linear;
 }
 
 .hamburger::after, .hamburger::before {
@@ -17,10 +18,12 @@
   width: 100%;
   border-top: 1px solid $text-color;
   transform: translateY(6px);
+  transition: 0.5s border-top linear;
 }
 
 .hamburger::after {
   transform: translateY(13px);
+  transition: 0.7s border-top linear;
 }
 
 .hamburger:focus {
@@ -28,9 +31,9 @@
 }
 
 .hamburger:focus::after {
-    border-top: 1px solid white;
-  }
+  border-top: 1px solid white;
+}
 
 .hamburger:focus::before {
-    border-top: 1px solid white;
+  border-top: 1px solid white;
 }
