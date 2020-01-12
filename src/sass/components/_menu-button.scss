@@ -5,18 +5,13 @@
   padding: 0px;
   cursor: pointer;
   position: relative;
-  
 }
 
 .menu-list a {
-//   width: 25px;
-//   height: 150px;
   text-decoration: none;
   font-family: $paragraph-font;
   font-size: $fs-12;
   color: $text-color;
-  display: flex;
-  align-content: space-between;
 }
 
 .menu-list li:hover {

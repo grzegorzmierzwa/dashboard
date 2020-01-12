@@ -1,0 +1,50 @@
+.contact-title {
+  font-family: $brand-font;
+  color: $text-color;
+  font-size: $fs-10;
+  text-transform: uppercase;
+  margin: 30px 0px 0px;
+  padding-left: 20px;
+}
+
+.menu-contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.menu-contact ul {
+  height: 40px;
+  padding-left: 20px;
+}
+
+.list-contact a {
+  text-decoration: none;
+  font-family: $paragraph-font;
+}
+
+
+.contact-img {
+  background-image: url('../images/manager_1.png');
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  position: relative; 
+}
+
+.list-contact p {
+  color: blue;
+  position: relative;
+  top: -30px;
+  left: 40px;
+}
+
+.contact-notification {
+  background-color: green;
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 30px;
+}
