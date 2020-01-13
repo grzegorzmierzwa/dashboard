@@ -13,13 +13,18 @@
 @import 'components/menu-button';
 @import 'components/contact';
 @import 'components/btn-link-add';
+@import 'components/btn-date';
+@import 'components/btn-link-chart';
+
 
 /* Sections */
 @import 'sections/navigation';
 @import 'sections/siedbar';
 @import 'sections/general-statistic';
 @import 'sections/general-chart';
+@import 'sections/general-content-table';
 @import 'sections/links';
+
 
 /* Pages / Views */
 // @import 'pages/registration';

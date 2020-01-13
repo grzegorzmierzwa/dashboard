@@ -22,8 +22,32 @@
 }
 
 
+.form-date {
+  height: 25px;
+  border: 0.5px solid $lines-color;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    height: 15px;
+    width: 120px;
+    border: none;
+    font-family: $brand-font;
+    font-size: $fs-10;
+    color: $text-color-2;
+    padding: 3px 3px 3px 10px;
+  }
+
+  .date-to {
+    border-left: 0.5px solid $lines-color;
+  }
+}  
+
+
 .general-content {
-  height: 150px;
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,3 +56,7 @@
 .general-chart {
   height: 500px;
 }
+
+
+
+

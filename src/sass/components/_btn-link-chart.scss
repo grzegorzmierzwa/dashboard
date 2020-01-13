@@ -1,0 +1,43 @@
+.inputs-chart {
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15px;
+    height: 30px;
+    width: 80px;
+    border-radius: 3px;
+    text-decoration: none;
+
+    h3 {
+      font-size: $fs-10;
+      color: blue;
+    }
+
+    .chart-not-1 {
+      background-color: rgb(70, 70, 190);
+      height: 9px;
+      width: 9px;
+      border-radius: 50%;
+      margin: 3px;
+    }
+
+    .chart-not-2 {
+      @extend .chart-not-1;
+      background-color: $hover-color-1;
+    }
+
+    .chart-not-3 {
+      @extend .chart-not-1;
+      background-color: green;
+    }
+  }
+
+  a:focus {
+    background-color: $page-background;
+
+    h3 {
+        color: $text-color;
+    }
+  }
+}

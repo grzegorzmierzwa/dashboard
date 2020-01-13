@@ -1,0 +1,28 @@
+.content-half {
+    margin-bottom: 30px;
+
+    table  {
+        border-bottom: 0.5px solid $lines-color;
+        border-collapse: collapse;
+        margin: 0px 20px;
+        height: 20px;
+    }
+
+    .table-content {
+        border-bottom: 0.5px solid $lines-color;
+        border-collapse: collapse;
+    }
+
+    .cell-content-text {
+        width: 200px;
+    }
+
+    .cell-content {
+        width: 30px;
+        text-align: end;
+    }
+
+    h3, h4 {
+        margin: 20px 0px 0px;
+    }
+}
