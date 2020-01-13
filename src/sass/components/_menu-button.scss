@@ -1,42 +1,46 @@
-.menu-list li {
-  white-space: nowrap;
-  height: 29px;
-  width: 150px;
-  padding: 0px;
-  cursor: pointer;
-  position: relative;
-}
+.menu-list { 
+  li {
+    white-space: nowrap;
+    height: 29px;
+    width: 150px;
+    padding: 0px;
+    cursor: pointer;
+    position: relative;
 
-.menu-list a {
-  text-decoration: none;
-  font-family: $paragraph-font;
-  font-size: $fs-12;
-  color: $text-color;
-}
+    &:hover {
+      background-color: $menu-link;
+      transition: 0.3s linear;
+      
+      .menu-border {
+        display: block;
+      }
+    } 
+  }
 
-.menu-list li:hover {
-  background-color: $menu-link;
-  transition: 0.3s linear;
-}
+  a {
+    text-decoration: none;
+    font-family: $paragraph-font;
+    font-size: $fs-12;
+    color: $text-color;
+  }
 
-.menu-list-elem:hover i {
-  color: $hover-color-2;
-  transition: 0.3s linear;
-}
+  .menu-border {
+    display: none;
+    border-left: 3px solid $hover-color-1;
+    position: absolute;
+    height: 29px;
+    width: 3px;
+  }
 
-.menu-list-elem:hover a {
-  color: $hover-color-2;
-  transition: 0.3s linear;
-}
-
-.menu-border {
-  display: none;
-  border-left: 3px solid $hover-color-1;
-  position: absolute;
-  height: 29px;
-  width: 3px;
-}
-
-.menu-list li:hover .menu-border {
-  display: block;
+  .menu-list-elem:hover {
+    i {
+      color: $hover-color-2;
+      transition: 0.3s linear;
+    }
+  
+    a {
+      color: $hover-color-2;
+      transition: 0.3s linear;
+    }
+  }
 }

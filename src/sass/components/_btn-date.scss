@@ -19,17 +19,15 @@
     padding: 5px;
     font-weight: 300;
   }
-}
 
+  i {
+    color: $page-content-background;
+    padding: 3px 0px 0px;
+    font-size: $fs-10;
+  }
 
-.btn-refresh i {
-  color: $page-content-background;
-  padding: 3px 0px 0px;
-  font-size: $fs-10;
-}
-
-
-.btn-refresh:hover {
-  background-color: #cf7221;
-  transition: 0.2s linear;
+  &:hover {
+    background-color: #cf7221;
+    transition: 0.2s linear;
+  }
 }

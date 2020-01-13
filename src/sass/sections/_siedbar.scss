@@ -6,9 +6,6 @@
   justify-content: space-around;
 }
 
-.menu-list .list {
-  padding-left: 0;
-}
 
 .menu-list {
   display: flex;
@@ -17,9 +14,13 @@
   height: 200px;
   border-bottom: 0.3px solid $text-color;
   padding-bottom: 20px;
-}
 
-.menu-list-elem {
-  display: flex;
-  align-items: center;
+  .list {
+    padding-left: 0;
+  }
+
+  .menu-list-elem {
+    display: flex;
+    align-items: center;
+  }
 }

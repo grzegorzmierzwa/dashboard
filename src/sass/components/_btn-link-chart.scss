@@ -31,13 +31,13 @@
       @extend .chart-not-1;
       background-color: green;
     }
-  }
 
-  a:focus {
-    background-color: $page-background;
-
-    h3 {
+    &:focus {
+      background-color: $page-background;
+  
+      h3 {
         color: $text-color;
+      }
     }
   }
 }
