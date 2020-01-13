@@ -66,3 +66,45 @@
     }
   }
 }
+
+
+@media (max-width: 800px) {
+  .table-warraper-links {
+    table {
+      .td-links-text {
+        width: 100px;
+      }
+
+      .td-links-link {
+        width: 180px;
+
+        .link-to-page {
+          font-size: $fs-10;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 566px) {
+  .table-warraper-links {
+    table {
+      .td-links-text {
+        width: 80px;
+
+        h3 {
+          font-size: $fs-10;
+        }
+      }
+
+      .td-links-link {
+        width: 150px;
+
+        .link-to-page {
+          font-size: $fs-10;
+        }
+      }
+    }
+  }
+}
