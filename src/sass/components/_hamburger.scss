@@ -1,13 +1,15 @@
 .hamburger {
+  display: none; 
   width: 15px;
   height: 15px;
   border: 0;
-  border-top: 1px solid $text-color;
+  border-top: 2px solid $text-color-2;
   background: transparent;
   position: relative;
   cursor: pointer;
   outline: none;
-  transition: 0.3s border-top linear;
+  transition: 0.3s border-top $text-color-2;
+  margin-inline-end: auto;
 
   &::after, &::before {
     content: '';
@@ -15,7 +17,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    border-top: 1px solid $text-color;
+    border-top: 2px solid black;
     transform: translateY(6px);
     transition: 0.5s border-top linear;
   }
@@ -27,14 +29,14 @@
   }
 
   &:focus {
-    border-top: 1px solid white;
+    border-top: 2px solid $text-color;
   }
 
   &:focus::before {
-    border-top: 1px solid white;
+    border-top: 2px solid $text-color;
   }
 
   &:focus::after {
-    border-top: 1px solid white;
+    border-top: 2px solid $text-color;
   }
 }
