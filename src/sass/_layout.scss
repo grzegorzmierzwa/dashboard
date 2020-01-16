@@ -1,3 +1,7 @@
+// * {
+//   box-sizing: border-box;
+// }
+
 
 body {
   width: 100vw;
@@ -8,6 +12,27 @@ body {
   display: flex;
   height: 100%;
 }
+
+
+// .container {
+//   width: 100%;
+//   max-width: 1170px;
+//   margin: 0 auto;
+//   padding-left: 15px;
+//   padding-right: 15px;
+// }
+
+// .container-fluid {
+//   width: 100%;
+//   padding-left: 15px;
+//   padding-right: 15px;
+// }
+
+// .row {
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+
 
 .menu-sidebar {
   width: 150px;
@@ -48,6 +73,8 @@ body {
 }
 
 @media (max-width: 566px) {
+  // @include grid('sm');
+
   .navigation {
     position: fixed;
     bottom: 0;
@@ -59,4 +86,18 @@ body {
 }
 
 
- 
+// @media(max-width: 767px) {
+//   @include grid('sm');
+// }
+
+// @media(min-width: 768px) {
+//   @include grid('md');
+// }
+
+// @media(min-width: 992px) {
+//   @include grid('lg');
+// }
+
+// @media(min-width: 1200px) {
+//   @include grid('xl');
+// }
