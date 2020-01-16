@@ -5,12 +5,12 @@
 
 body {
   width: 100vw;
-  height: 100vh;
+  // height: 100vh;
 }
 
 .container {
   display: flex;
-  height: 100%;
+  // height: 100%;
 }
 
 
@@ -74,6 +74,13 @@ body {
 
 @media (max-width: 566px) {
   // @include grid('sm');
+
+  .menu-sidebar {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+  }
 
   .navigation {
     position: fixed;
